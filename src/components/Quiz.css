@@ -1,0 +1,65 @@
+body {
+    background-color: #63517c;
+}
+
+.quiz-container {
+    background-color: white;
+    width: 80%;
+    height: 500px;
+    padding: 20px;
+    margin: 8%;
+    display: flex;
+    flex-direction: column;
+}
+
+.question {
+    display: flex;
+    justify-content: center;
+}
+
+.option-cointainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.main-q {
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+}
+
+.option {
+    background-color: #4ca0fe;
+    border: none;
+    color: white;
+    border-radius: 25px;
+    height: 45px;
+    width: auto;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 70px;
+}
+
+.control {
+    background-color: blueviolet;
+    color: black;
+    border: none;
+    padding: 10px;
+    width: 100px;
+    font-weight: bold;
+}
+
+.control:nth-child(2) {
+    background-color: green;
+}
+
+.control:nth-child(3) {
+    background-color: red;
+}
